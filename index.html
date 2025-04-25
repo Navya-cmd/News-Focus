@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <nav>
+            <div class="main-nav container flex">
+                <a href="#" class="company-logo">
+                    <img src="newslogo5.jpg.png
+                    " alt="News logo">
+                </a>
+                <div class="nav-links">
+                    <ul class="flex">
+                        <li class="hover-link nav-item">IPL</li>
+                        <li class="hover-link nav-item">Finance</li>
+                        <li class="hover-link nav-item">Politics</li>
+                    </ul>
+                </div>
+                <div class="search-bar flex">
+                    <input type="text" class="news-input" placeholder="e.g. Science">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+       </nav>
+
+       <main>
+            <div class="cards-container container flex" id="cards-container">
+                
+            </div>
+       </main>
+
+       <template id="template-news-card">
+           <div class="card">
+               <div class="card-header">
+                   <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+               </div>
+               <div class="card-content">
+                   <h3 id="news-title">This is the Title</h3>
+                   <h6 class="news-source" id="news-source">End Gadget  26/08/2023</h6>
+                   <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quisquam consequatur ipsum <br> sit necessitatibus, ea fugit vitae nostrum maxime<br> voluptates, minus quo natus aliquam facilis?</p>
+               </div>
+           </div>
+       </template>
+
+       <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFocus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NewsFocus</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="fetchNews('general')">General</a></li>
+                <li><a href="#" onclick="fetchNews('business')">Business</a></li>
+                <li><a href="#" onclick="fetchNews('technology')">Technology</a></li>
+                <li><a href="#" onclick="fetchNews('sports')">Sports</a></li>
+                <li><a href="#" onclick="fetchNews('entertainment')">Entertainment</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="news-container">
+        News articles will be displayed here -->
+    <!-- </main>
+    <script src="script.js"></script>
+</body>
+</html> -->
